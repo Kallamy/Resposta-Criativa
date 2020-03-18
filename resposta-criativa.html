@@ -1,0 +1,150 @@
+<html>
+<head>
+    <title>Resposta Criativa</title>
+    <style>
+        body {
+            
+            font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+            font-size: 1em;
+            padding: 30px;
+            padding-top: 15px;
+            background-color: whitesmoke;
+            
+        }
+        a {
+            font-weight: bold;
+            text-decoration: none;
+            color: #555;
+        }
+        a:hover {
+            color: #fff;
+        }
+
+        .titulo {
+            font-size: 3em;
+            font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;           
+            color: darkorange;
+            text-shadow: -3px 3px 3px #ddd;
+            text-transform: uppercase;
+            text-align: center;
+            margin-bottom: 20px;
+        }
+        #pergunta {
+            text-align: center;
+            font-family: 'Times New Roman', Times, serif;
+            font-size: 20px;
+            width: 60%;
+            margin: auto;
+            color: #bbb;
+            margin-bottom: 30px;
+        }
+        #resposta{
+            text-align: center;
+            margin: auto;
+            font-size: 20px;
+            font-weight: bold;
+        }
+        .personagens-area {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: center;
+            align-items: center;
+        }
+        .caixa{
+            background-color: #ccc;
+            margin-bottom: 20px;
+            margin-left: 20px;
+            box-shadow: -3px 3px 3px #ddd;
+        }
+        .foto {
+            width: 300px;
+            height: 190px;
+            
+
+        }
+        .sobre {
+            display: none;
+            background-color: darkslategray;
+            position: absolute;
+            width: 300px;
+            height: 190px;
+            background-color: rgba(0, 0, 0, 0.3);
+           
+            
+            
+        }
+        .sobre .desc {
+           
+            padding-left: 25px;
+            margin-top:125px;
+            color: seashell;
+            font-size: 20px;
+            
+        }
+        
+        .info .serie {
+            margin-bottom: 20px;
+        }
+        .info .nome {
+            margin-top: 30px;
+            text-align: center;
+            color: black;
+            font-weight: bold;
+            font-size: 25px;
+            line-height: 10px;
+        }
+        .caixa:hover {
+            box-shadow: -7px 7px 5px #bbb;
+        }
+        .caixa:hover > .sobre {
+            display: block;
+        }
+
+        .info {
+            text-align: center;
+        }
+
+    
+
+    </style>
+</head>
+<body>
+    <img src="assets/images/logo-generation.png" width="200">
+    <h1 class="titulo">Resposta Criativa</h1>
+
+    <p id="pergunta">"Você foi contratado para o emprego dos sonhos: diretor de um novo produto na maior empresa de
+        tecnologia do país. Sua primeira atribuição é contratar 3 pessoas e montar sua equipe."</p>
+    <p id="resposta">Se esses personagens das séries da Netfilx fossem reais e eu pudesse viajar no tempo, eu os escolheria para minha equipe:</p>
+    <p class="info">Passe o mouse para ver as caracteristicas dos personagens</p>
+    <div class="personagens-area">
+        <div class="caixa">
+            <div class="sobre"><div class="desc"> Ela é criativa tem imaginação fértil e pensa fora da caixa.</div></div>
+            <img class="foto" src="assets/images/anne.jpg">
+            <div class="info">
+                <p class="nome"> Anne Shirley (Passado) </p> 
+                <p class="serie"> Anne with an E (2017)</p> 
+                <p class="link"> <a href="https://www.youtube.com/watch?v=bBervTlBurY" target="blank">ASSISTA O TRAILER</a> </p> 
+            </div>
+            
+        </div>
+        <div class="caixa">
+            <div class="sobre"><div class="desc"> É muito lógico e racional, desenha bem e é determinado</div></div>
+            <img class="foto" src="assets/images/sam.jpg">
+            <div class="info">
+                <p class="nome"> Sam Gardner (Presente) </p> 
+                <p class="serie"> Atypical (2017)</p> 
+                <p class="link"> <a href="https://www.youtube.com/watch?v=mw6EPR6sNS0" target="blank">ASSISTA O TRAILER</a> </p>
+            </div>
+        </div>
+        <div class="caixa">
+            <div class="sobre"><div class="desc" style="margin-top: 100px;"> É uma pessoa ética, que acredita em seus ideais e é craque em programação.</div></div>
+            <img class="foto" src="assets/images/nina.jpg">
+            <div class="info">
+                <p class="nome"> Nina Peixoto (Futuro) </p> 
+                <p class="serie"> Onisciente (2020) </p> 
+                <p class="link"> <a href="https://www.youtube.com/watch?v=XihAUDC7_IA" target="blank">ASSISTA O TRAILER</a> </p>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
